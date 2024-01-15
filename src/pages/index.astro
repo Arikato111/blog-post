@@ -1,0 +1,25 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1 style="text-align: center;">Welcome!</h1>
+			<h2 style="text-align: center;">to Arikato111 blog</h2>
+
+			<p>
+				คำอธิบายค่อยคิดทีหลัง
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
