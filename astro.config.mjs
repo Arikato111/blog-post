@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     port: 3000
   },
-  site: "https://example.com",
+  site: "https://blog.nawasan.dev",
   integrations: [mdx(), sitemap()]
 });
