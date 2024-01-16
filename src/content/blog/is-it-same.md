@@ -26,7 +26,7 @@ let text = "Hello, World";
 console.log(text.length);
 ```
 
-หากสังเกตุจะพบว่า text นั้นมี method ที่ชื่อ length อยู่ ทั่งๆ ที่เป็น string นั่นก็เพราะจริงๆ แล้วมันเป็น object และไม่ใช่แค่นั้น แม้แต่ number หรือ array เองก็ด้วย แต่อย่างไรก็ตามจะขอไม่นำ JavaScript ไปเปรียบเทียบกับ PHP ที่ซึ่งมีความเป็น Functional
+หากสังเกตุจะพบว่า text นั้นมี property ที่ชื่อ length อยู่ ทั่งๆ ที่เป็น string นั่นก็เพราะจริงๆ แล้วมันเป็น object และไม่ใช่แค่นั้น แม้แต่ number หรือ array เองก็ด้วย แต่อย่างไรก็ตามจะขอไม่นำ JavaScript ไปเปรียบเทียบกับ PHP ที่ซึ่งมีความเป็น Functional
 
 ##### สรุปว่าอย่างไร?
 
